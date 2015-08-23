@@ -1,0 +1,79 @@
+﻿/* YogaString sylesheet */
+
+body 
+ {
+   font-family:Arial, Helvittica, sans-serif;
+   background-color:darkred;
+ }
+
+header
+ {
+  width:100%;
+  background-color:#D1A319;
+  margin-right:auto;
+  margin-left:auto;
+  padding:0;
+  overflow:hidden;
+  position:fixed;
+ }
+
+h1
+{
+  font-size:2em;
+  margin:auto;
+  padding:0;
+  padding-top:10;
+}
+
+h2
+{
+  font-size:1.6em
+}
+
+hgroup
+{
+  width:75%;
+  float:left;
+}
+
+hgroup h1
+{
+  padding-top:0;
+  line-height:1em;
+}
+
+hgroup h2
+{
+  text-transform:uppercase;
+  font-size:1.2em;
+  line-height:1em;
+}
+
+nav
+{
+ width:30%;
+ float:right;
+}
+
+nav li
+{
+ float:left;
+ margin-right:8px;
+}
+
+nav ul
+{
+ list-style-type:none;
+}
+
+section
+{
+width:80%;
+background-color:white;
+color:black;
+margin-right:auto;
+margin-left:auto;
+border-color:#D1A319;
+border-width:10px;
+border-style:solid;
+}
